@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+}
+
+.parent 
+{
+    position: relative;
+    background-color: crimson;
+    height: 330px;
+    width: 100%;
+}
+.child
+{  
+    position: absolute;
+    display: inline-block;
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    top: 0;
+    right: 0;
+
+}
